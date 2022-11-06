@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Details</title>
+    <title>Global Foods</title>
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet"
-         >
+     >
     <link rel="stylesheet" href="../assets/css/main.css">
 </head>
-
 <body>
     <!-- Navbar starts here -->
     <nav class="navbar navbar-expand-lg bg-light">
@@ -56,39 +54,20 @@
         </div>
     </nav>
     <!-- Navbar ends here -->
-
-    <!-- Content starts here -->
-    <div class="container pt-5">
-        <h4 id="recipe_title"></h4>
-        <div class="recipe-image">
-            <img class="details-img" id="recipe_image" src="../assets/image/default.jpg" alt="Recipe Image">
-        </div>
-        <div class="details pt-3">
-            <div class="my-3">
-                <h5>Ingredients</h5>
-                <div id="recipe_ingredients"></div>
-            </div>
-            <hr>
-            <div>
-                <h5>Summary</h5>
-                <p id="recipe_summary"></p>
-            </div>
-            <div>
-                <a id="recipe_source_url" target="_blank"></a>
-            </div>
-        </div>
+    <div class="container pt-4">
+        <h3 class="text-capitalize" id="page_title"></h3>
+        <div class="row" id="recipes"></div>
     </div>
 
 
-    <div class="mt-5 border-top">
+     <div class="mt-5 border-top">
         <div class="container pt-2">
             <h4>FoodRecipes</h4>
             <p>L Technologies @2022</p>
         </div>
     </div>
-
 </body>
 <script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/details.js"></script>
-
+<script src="../assets/js/data.js"></script>
+<script src="../assets/js/main.js"></script>
 </html>
